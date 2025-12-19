@@ -1,0 +1,99 @@
+=== Kretz conversion started at 2025-12-19 12:42:57 ===
+[2025-12-19 12:42:57] Script starting...
+[2025-12-19 12:42:57] === Kretz VOL to NRRD Conversion ===
+[2025-12-19 12:42:57] Input folder: D:\Vol to nrrd\USVolume
+[2025-12-19 12:42:57] Output folder: D:\Vol to nrrd\Nrrd_files
+[2025-12-19 12:42:57] Available Kretz-related modules: ['kretzfilereader']
+[2025-12-19 12:42:57] ✅ Kretz file reader modules found
+[2025-12-19 12:42:57] Found 6 VOL files: ['AC - I0000061.vol', 'FL - I0000004.vol', 'FL - I0000005.vol', 'FL - I0000051.vol', 'FL_I0000064.vol', 'Head - I0000053.vol']
+[2025-12-19 12:42:57] 
+--- Processing: AC - I0000061.vol ---
+[2025-12-19 12:42:57] Input: D:\Vol to nrrd\USVolume\AC - I0000061.vol
+[2025-12-19 12:42:57] Output: D:\Vol to nrrd\Nrrd_files\AC - I0000061.nrrd
+[2025-12-19 12:42:57] File size: 37181331 bytes
+[2025-12-19 12:42:57] Attempting to load Kretz VOL file...
+[2025-12-19 12:43:04] ✅ Successfully loaded: AC - I0000061
+[2025-12-19 12:43:04] Node class: vtkMRMLScalarVolumeNode
+[2025-12-19 12:43:04] Image dimensions: (370, 281, 237)
+[2025-12-19 12:43:04] Window/Level: 135.0/82.5
+[2025-12-19 12:43:04] Saving as NRRD...
+[2025-12-19 12:43:05] Save function returned: True
+[2025-12-19 12:43:05] ✅ SUCCESS: Saved 8165038 bytes
+[2025-12-19 12:43:05] Cleaned up volume node
+[2025-12-19 12:43:05] 
+--- Processing: FL - I0000004.vol ---
+[2025-12-19 12:43:05] Input: D:\Vol to nrrd\USVolume\FL - I0000004.vol
+[2025-12-19 12:43:05] Output: D:\Vol to nrrd\Nrrd_files\FL - I0000004.nrrd
+[2025-12-19 12:43:05] File size: 35542728 bytes
+[2025-12-19 12:43:05] Attempting to load Kretz VOL file...
+[2025-12-19 12:43:11] ✅ Successfully loaded: FL - I0000004
+[2025-12-19 12:43:11] Node class: vtkMRMLScalarVolumeNode
+[2025-12-19 12:43:11] Image dimensions: (320, 282, 230)
+[2025-12-19 12:43:11] Window/Level: 135.0/82.5
+[2025-12-19 12:43:11] Saving as NRRD...
+[2025-12-19 12:43:11] Save function returned: True
+[2025-12-19 12:43:11] ✅ SUCCESS: Saved 7349989 bytes
+[2025-12-19 12:43:11] Cleaned up volume node
+[2025-12-19 12:43:11] 
+--- Processing: FL - I0000005.vol ---
+[2025-12-19 12:43:11] Input: D:\Vol to nrrd\USVolume\FL - I0000005.vol
+[2025-12-19 12:43:11] Output: D:\Vol to nrrd\Nrrd_files\FL - I0000005.nrrd
+[2025-12-19 12:43:11] File size: 31598854 bytes
+[2025-12-19 12:43:11] Attempting to load Kretz VOL file...
+[2025-12-19 12:43:17] ✅ Successfully loaded: FL - I0000005
+[2025-12-19 12:43:17] Node class: vtkMRMLScalarVolumeNode
+[2025-12-19 12:43:17] Image dimensions: (298, 271, 216)
+[2025-12-19 12:43:17] Window/Level: 135.0/82.5
+[2025-12-19 12:43:17] Saving as NRRD...
+[2025-12-19 12:43:17] Save function returned: True
+[2025-12-19 12:43:17] ✅ SUCCESS: Saved 6219202 bytes
+[2025-12-19 12:43:17] Cleaned up volume node
+[2025-12-19 12:43:17] 
+--- Processing: FL - I0000051.vol ---
+[2025-12-19 12:43:17] Input: D:\Vol to nrrd\USVolume\FL - I0000051.vol
+[2025-12-19 12:43:17] Output: D:\Vol to nrrd\Nrrd_files\FL - I0000051.nrrd
+[2025-12-19 12:43:17] File size: 32626016 bytes
+[2025-12-19 12:43:17] Attempting to load Kretz VOL file...
+[2025-12-19 12:43:23] ✅ Successfully loaded: FL - I0000051
+[2025-12-19 12:43:23] Node class: vtkMRMLScalarVolumeNode
+[2025-12-19 12:43:23] Image dimensions: (317, 252, 212)
+[2025-12-19 12:43:23] Window/Level: 135.0/82.5
+[2025-12-19 12:43:23] Saving as NRRD...
+[2025-12-19 12:43:23] Save function returned: True
+[2025-12-19 12:43:23] ✅ SUCCESS: Saved 6266123 bytes
+[2025-12-19 12:43:23] Cleaned up volume node
+[2025-12-19 12:43:23] 
+--- Processing: FL_I0000064.vol ---
+[2025-12-19 12:43:23] Input: D:\Vol to nrrd\USVolume\FL_I0000064.vol
+[2025-12-19 12:43:23] Output: D:\Vol to nrrd\Nrrd_files\FL_I0000064.nrrd
+[2025-12-19 12:43:23] File size: 20781517 bytes
+[2025-12-19 12:43:23] Attempting to load Kretz VOL file...
+[2025-12-19 12:43:27] ✅ Successfully loaded: FL_I0000064
+[2025-12-19 12:43:27] Node class: vtkMRMLScalarVolumeNode
+[2025-12-19 12:43:27] Image dimensions: (260, 263, 173)
+[2025-12-19 12:43:27] Window/Level: 135.0/82.5
+[2025-12-19 12:43:27] Saving as NRRD...
+[2025-12-19 12:43:27] Save function returned: True
+[2025-12-19 12:43:27] ✅ SUCCESS: Saved 4717633 bytes
+[2025-12-19 12:43:27] Cleaned up volume node
+[2025-12-19 12:43:27] 
+--- Processing: Head - I0000053.vol ---
+[2025-12-19 12:43:27] Input: D:\Vol to nrrd\USVolume\Head - I0000053.vol
+[2025-12-19 12:43:27] Output: D:\Vol to nrrd\Nrrd_files\Head - I0000053.nrrd
+[2025-12-19 12:43:27] File size: 37765428 bytes
+[2025-12-19 12:43:27] Attempting to load Kretz VOL file...
+[2025-12-19 12:43:35] ✅ Successfully loaded: Head - I0000053
+[2025-12-19 12:43:35] Node class: vtkMRMLScalarVolumeNode
+[2025-12-19 12:43:35] Image dimensions: (356, 295, 248)
+[2025-12-19 12:43:35] Window/Level: 135.0/82.5
+[2025-12-19 12:43:35] Saving as NRRD...
+[2025-12-19 12:43:35] Save function returned: True
+[2025-12-19 12:43:35] ✅ SUCCESS: Saved 9442563 bytes
+[2025-12-19 12:43:35] Cleaned up volume node
+[2025-12-19 12:43:35] 
+=== Conversion Summary ===
+[2025-12-19 12:43:35] Successfully converted: 6/6 files
+[2025-12-19 12:43:35] 🎉 Conversion successful!
+[2025-12-19 12:43:35] Created files: ['AC - I0000061.nrrd', 'FL - I0000004.nrrd', 'FL - I0000005.nrrd', 'FL - I0000051.nrrd', 'FL_I0000064.nrrd', 'Head - I0000053.nrrd']
+[2025-12-19 12:43:35] Script completed: True
+[2025-12-19 12:43:35] === Script finished ===
