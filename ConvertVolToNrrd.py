@@ -17,10 +17,10 @@ def log_message(message):
         f.flush()
 
 def main():
-    log_message("=== Kretz VOL to NRRD Conversion ===")
+    log_message("=== Kretz VOL to NIFTI Conversion ===")
     
     input_folder = r"D:\Vol to nrrd\USVolume"
-    output_folder = r"D:\Vol to nrrd\Nrrd_files"
+    output_folder = r"D:\Vol to nrrd\Nifti_files"  # Changed folder name to Nifti_files
     
     log_message(f"Input folder: {input_folder}")
     log_message(f"Output folder: {output_folder}")
@@ -68,7 +68,7 @@ def main():
     
     for filename in vol_files:
         input_path = os.path.join(input_folder, filename)
-        output_path = os.path.join(output_folder, filename.replace('.vol', '.nrrd'))
+        output_path = os.path.join(output_folder, filename.replace('.vol', '.nii'))  # Changed to .nii
         
         log_message(f"\n--- Processing: {filename} ---")
         log_message(f"Input: {input_path}")
@@ -123,9 +123,9 @@ def main():
                 if displayNode:
                     log_message(f"Window/Level: {displayNode.GetWindow()}/{displayNode.GetLevel()}")
             
-            # Save as NRRD
-            log_message("Saving as NRRD...")
-            success = slicer.util.saveNode(volumeNode, output_path)
+            # Save as NIFTI (instead of NRRD)
+            log_message("Saving as NIFTI...")
+            success = slicer.util.saveNode(volumeNode, output_path, {"fileType": "NIFTI"})
             log_message(f"Save function returned: {success}")
             
             if success and os.path.exists(output_path):
@@ -155,8 +155,8 @@ def main():
         log_message("🎉 Conversion successful!")
         try:
             output_files = os.listdir(output_folder)
-            nrrd_files = [f for f in output_files if f.lower().endswith('.nrrd')]
-            log_message(f"Created files: {nrrd_files}")
+            nifti_files = [f for f in output_files if f.lower().endswith(('.nii', '.nii.gz'))]  
+            log_message(f"Created files: {nifti_files}")
         except Exception as e:
             log_message(f"Could not list output: {e}")
     else:
